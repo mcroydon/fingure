@@ -53,6 +53,6 @@ Fingure is my attempt at doing something trivial but useful in the language.  Im
 
 ## License
 
-Copyright © 2012 Matt Croydon
+Copyright © 2012-2013 Matt Croydon
 
 Distributed under the Eclipse Public License, the same as Clojure.  If this license hinders your ability to use Fingure or any of its source code, please get in touch to discuss alternative licensing options.
