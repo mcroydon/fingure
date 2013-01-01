@@ -37,6 +37,7 @@ $ finger @localhost
 Trying 127.0.0.1...
 Greetings from the fingure finger server.
 
+$ finger user@localhost
 [localhost]
 Trying 127.0.0.1...
 Greetings from the fingure finger server.
