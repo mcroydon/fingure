@@ -32,18 +32,29 @@ Set LEIN_ROOT to disable this warning.
 You can now connect to Fingure server using a finger client.  Most OSes (Linux, Mac OS X, Windows) ship with a finger command:
 
 ```bash
-$ finger @localhost
+$ finger mcroydon@localhost
 [localhost]
 Trying 127.0.0.1...
 Greetings from the fingure finger server.
+Matt Croydon
+http://postneo.com
 
-$ finger user@localhost
+$ finger test@localhost                                                                                                                                                                                        
 [localhost]
 Trying 127.0.0.1...
 Greetings from the fingure finger server.
-No information about user found.
+Test User
+http://example.com
+
+$ finger unknown@localhost
+[localhost]
+Trying 127.0.0.1...
+Greetings from the fingure finger server.
+User not found.
 
 ```
+
+User information is currently hard-coded in fingure.core/user-map
 
 ## Motivation
 
